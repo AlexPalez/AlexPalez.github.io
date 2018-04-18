@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+div {
+    outline: 0px solid lime;
+}
+.container {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-color: #fff9c4;
+    margin: 0 0 0 0;  
+}
+/*This section is for the header/links on every page*/
+.header {
+    border-top: solid white;
+    background-color: #fcb928;
+    height: 100px;
+    color: #FFFFFF;
+    border-bottom: solid white;
+    font-family: sans-serif;
+}
+.nav {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    float: left;
+    margin-left: 50px;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.logo img {
+    height: 60px;
+    width: 230px;
+    margin-top: 0px;
+}
+.links {
+    margin-top: 30px;
+    margin-right: 90px;
+    font-size: 1.3rem;
+    float: right;
+    font-family: 'Gaegu', cursive;  
+}
+.links a {
+    color: #56603b;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.links a:hover {
+    color: steelblue;
+}
+/*^^This section is for the header/links on every page^^*/
+
+/*home.html*/
+.homeheader {
+    background-color: #8cc781;
+    width:950px;
+    height: 140px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: 'Gaegu', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #FFFFFF;
+    padding-top: 20px;
+}
+.homebody {
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 510px;
+    background-color: ##fff9c4;
+}
+.banner img {
+    max-width: 950px;
+    width: 100%;
+    height: 400px; 
+}
+.bannerinfo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin-left: 3px;
+    text-align: justify;
+    margin-top: 5px;
+}
+.bannerinfo2 {
+    margin-top: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    border-top: 2px solid #98ced1;
+}
+.bannerinfo3 {
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #98ced1;
+    margin-bottom: 50px;
+}
+
+/*mystory.html*/
+.mystorybackground {
+   background-color: #fff9c4;
+}
+.header2 {
+    background-color: #8cc781;
+    width:950px;
+    height: 140px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: 'Gaegu', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 0 0;
+}
+.msbody {
+    background-color:#dfe6f7;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+.msbody img {
+    max-width: 800px;
+    width: 60%;
+    height: 450px;  
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 5px solid white;
+    float: left;
+}
+.infobox {
+    max-width: 30%;
+    float: right;
+   border: 2px solid black;
+    margin-right: 35px;
+    margin-top: 20px;
+    height: 450px;
+    font-family: 'Raleway', sans-serif;
+    color: #37474f;
+    font-size: 1rem;
+}
+.personal1 {
+    margin-top: 5px;
+}
+.personal2 {
+    margin-top: 5px;
+}
+.personal3 {
+    margin-top: 5px;
+}
+.personal4 {
+    margin-top: 5px;
+}
+.personal5 {
+    margin-top: 5px;
+}
+.infobox p {
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+infobox p1 {
+    margin-top: 20px;   
+    font-size: 1em;
+    text-align: justify;
+    vertical-align: middle; 
+}
+.subsection {
+    height: 450px;
+    max-width: 950px;
+}
+.subsection img {
+    max-width: 400px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none;
+}
+.nzmapkey {
+    background-color: #eeeeee;
+    max-width: 400px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 35px;
+    margin-top: 30px;
+    height:420px;
+    font-family: 'Raleway', sans-serif;
+}
+.keytitle {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.locationlist {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    float: left;
+}
+.places1 {
+    border: 2px solid #633b1f;
+    margin-top: 20px;
+    margin-left: 45px; ;
+    width: 300px;
+    text-align: center;
+}
+.places2 {
+    border: 2px solid blue;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: auto;
+    width: 300px;
+}
+.places3 {
+    border: 2px solid #ebce13;
+    margin-top: 40px;
+    margin-left: 45px;
+    width: 300px;
+}
+.places4 {
+    border: 2px solid red;
+    margin-top: 40px;
+    margin-left: 45px;
+    width: 300px;
+}
+.places5 {
+    border: 2px solid purple;
+    margin-top: 40px;
+    margin-left: 45px;
+    width: 300px;
+}
+
+/*photogallery.html*/
+.photogallery {
+   background-color: #fff9c4;
+    height: 4500px;
+}
+.header3 {
+    background-color: #8cc781;
+    height: 120px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: 'Gaegu', cursive;
+    padding: 20px 0;
+  
+}
+.mtmheader {
+   background-color: #90caf9;
+    width:950px;
+    height: 60px;
+    color: #9e6009;
+    font-size: 2rem;
+    font-family: 'Gaegu', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.pgbody {
+    background-color: #c4904d;
+    height: 4430px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 0;
+    border-bottom: 2px solid #FFFFFF;
+}
+.pgbody img {
+    max-width: 800px;
+    width: 45%;
+    height: 250px;  
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 5px solid white;
+    float: left; 
+}
+.figure1 {
+    float: left;
+    width: 45%;
+    height: 40px;
+    margin-left: 23px;
+    margin-top: 10px;
+    text-align: center;
+   font-family: 'Raleway', sans-serif;
+}
+.figure2 {
+    float: right;
+    width: 45%;
+    height: 40px;
+    margin-right: 23px;
+    margin-top: 10px;
+    text-align: center;
+   font-family: 'Raleway', sans-serif;
+}
+.mttext {
+    float: left;
+    height: 80px;
+    width: 900px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: auto;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+.rotoheader {
+    background-color: #90caf9;
+    width:950px;
+    height: 60px;
+    color: #9e6009;
+    font-size: 2rem;
+    font-family: 'Gaegu', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    float: left;
+}
+.slideshow {
+    height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slideshow img {
+    height: 400px;
+    width: 410px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.rttext {
+    float: left;
+    height: 100px;
+    width: 875px;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: auto;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+.mahiaheader {
+    background-color: #90caf9;
+    width:950px;
+    height: 60px;
+    color: #9e6009;
+    font-size: 2rem;
+    font-family: 'Gaegu', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    float: left;
+}
+.mbody img {
+    margin-top: 30px;
+}
+.mtext {
+    float: left;
+    height: 100px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: auto;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+.hbheader {
+    background-color: #90caf9;
+    width: 950px;
+    height: 60px;
+    color: #9e6009;
+    font-size: 2rem;
+    font-family: 'Gaegu', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    float: left; 
+}
+.hbbody img {
+    height: 400px;
+    width: 380px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.hbtext {
+    float: left;
+    height: 100px;
+    width: 835px;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: auto;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+.wellyheader {
+    background-color: #90caf9;
+    width: 950px;
+    height: 60px;
+    color: #9e6009;
+    font-size: 2rem;
+    font-family: 'Gaegu', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    float: left; 
+}
+.wbody {
+    height:700px;
+}
+.wbody img {
+    height: 450px;
+    width: 400px;
+    margin-left: 45px;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.wellytext {
+    float: left;
+    height: 100px;
+    width: 865px;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: auto;
+    text-align: justify;
+   font-family: 'Raleway', sans-serif;
+}
+
+/*contact.html*/
+.contact {
+   background-color: #8cc781;
+    padding: 20px 0;
+}
+.header5 {
+    height: 90px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: 'Gaegu', cursive; 
+}
+.contactbody {
+    background-color: skyblue;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    margin-bottom: 50px;
+}
+.contactbody img {
+    height: 460px;
+    width: 380px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.contactinfobox {
+    border: 2px solid black;
+    width: 500px;
+    height: 460px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.contactbox1 {
+    color: #0c3338;
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    margin-top: 20px;
+    margin-right: 130px;
+    height: 30px;
+    width: 300px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+}
+.contactbox2 {
+    margin-top: 15px;
+    margin-right: 20px;
+    height: 30px;
+    width: 390px;
+    float: right;
+    color: #0c3338;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+.contactbox3 {
+    margin-top: 0px;
+    margin-right: 20px;
+    height: 50px;
+    width: 390px;
+    float: right;
+    color: #0c3338;
+    font-family: 'Raleway', sans-serif;
+}
+.phonenumber {
+    margin-top: 10px;
+}
+.companyemail {
+     margin-top: 10px;
+}
+.companywebsite {
+     margin-top: 10px;
+}
+.contactbox4 {
+    margin-top: 60px;
+    margin-right: 20px;
+    height: 30px;
+    width: 390px;
+    float: right;
+    color: #0c3338;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+.contactbox5 {
+    margin-top: 0px;
+    margin-right: 20px;
+    height: 50px;
+    width: 390px;
+    float: right;
+    color: #0c3338;
+    font-family: 'Raleway', sans-serif;
+}
+.personalemail {
+    margin-top: 10px;
+}
+.personalphone {
+    margin-top: 10px;
+}
+.contactbox6 {
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 30px;
+    width: 390px;
+    float: right;
+    color: #0c3338;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+.contactbox7 {
+    margin-top: 0px;
+    margin-right: 20px;
+    height: 50px;
+    width: 390px;
+    float: right;
+    color: #0c3338;
+    font-family: 'Raleway', sans-serif;
+}
+.address {
+    margin-top: 10px;
+}
+.city {
+    margin-top: 10px;
+}
+.country {
+    margin-top: 10px;
+}
